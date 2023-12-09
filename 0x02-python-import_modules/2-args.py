@@ -13,6 +13,6 @@ if __name__ == "__main__":
     if num_args >= 1:
         num_args = 0
         for arg in sys.argv:
-            if i != 0:
+            if num_args != 0:
                 print("{}: {}".format(num_args, arg))
             num_args += 1
